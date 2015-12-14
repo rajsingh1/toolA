@@ -1,10 +1,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     
-    <groupId>vwg.vw.prerelease.SampleProject</groupId>
-    <artifactId>SampleProject</artifactId>
+    <groupId>vwg.vw.prerelease.GreatProject</groupId>
+    <artifactId>GreatProject</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>xcode-app</packaging>
+    
+    <dependencies>
+    <dependency>
+        <groupId>vwg.vw.prerelease.Great</groupId>
+        <artifactId>Great</artifactId>
+        <version>1.0.0</version>
+        <type>xcode-lib</type>
+        <scope>system</scope>
+        <systemPath>/Users/macmini1/Desktop/Proj/Maven_Test2/Local/AppBuild_Library/src/xcode/GreatProject/Great/</systemPath>
+    </dependency>
+    </dependencies>
+    
+
     
     <build>
         <plugins>
